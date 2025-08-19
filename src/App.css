@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+  
+}
+.custom-image {
+  width: 100%;         /* Column ke width ke hisaab se adjust */
+  height: 250px;       /* Fixed height */
+  object-fit: cover;   /* Image ko crop karke equal banayega without distortion */
+  border-radius: 8px;  /* Thoda rounded look ke liye */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Light shadow */
+}
+
+
+/* Equal gallery images */
+.gallery-img {
+  width: 100%;
+  height: 250px;   /* same height for all */
+  object-fit: cover; /* crops neatly */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Hero section adjustments */
+.hero h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.hero .lead {
+  font-size: 1.5rem;
+}

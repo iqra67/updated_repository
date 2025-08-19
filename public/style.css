@@ -1,0 +1,22 @@
+/* Hero overlay */
+.overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Gallery images same size & responsive */
+.gallery-img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.custom-img {
+  width: 300px;      /* fixed width */
+  height: 200px;     /* fixed height */
+  object-fit: cover; /* image crop kar ke fit karegi */
+}
